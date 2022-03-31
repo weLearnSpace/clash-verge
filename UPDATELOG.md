@@ -72,3 +72,27 @@ If you can't update the app properly, please consider downloading the latest ver
 
 - clash config file case ignore
 - clash `external-controller` only port
+
+## v0.4.6
+
+### Features
+
+- i18n supports
+- Remote profile User Agent supports
+
+### Bug Fixes
+
+- clash config file case ignore
+- clash `external-controller` only port
+
+## v0.4.7
+
+### Features
+
+- i18n supports
+- Remote profile User Agent supports
+
+### Bug Fixes
+
+- clash config file case ignore
+- clash `external-controller` only port

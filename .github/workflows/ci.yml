@@ -54,6 +54,7 @@ jobs:
 
       - name: Yarn install and check
         run: |
+          yarn config set registry https://registry.npm.taobao.org/
           yarn install --network-timeout 1000000
           yarn run check
 
@@ -100,7 +101,9 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Yarn install
-        run: yarn install
+        run: ｜
+          yarn config set registry https://registry.npm.taobao.org/
+          yarn install
 
       - name: Release update.json
         run: yarn run release
