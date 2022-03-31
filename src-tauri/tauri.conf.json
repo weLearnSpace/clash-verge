@@ -25,8 +25,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "resources": [], // "resources"
-      "externalBin": [], // "sidecar/clash"
+      "resources": [],
+      "externalBin": [],
       "copyright": "© 2022 zzzgydi All Rights Reserved",
       "category": "DeveloperTool",
       "shortDescription": "A Clash GUI based on tauri.",
