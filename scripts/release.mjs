@@ -41,6 +41,7 @@ async function resolveRelease() {
       win64: { signature: "", url: "" },
       linux: { signature: "", url: "" },
       darwin: { signature: "", url: "" },
+      "darwin-aarch64": { signature: "", url: "" },
     },
   };
 
@@ -61,10 +62,14 @@ async function resolveRelease() {
     // darwin url
     if (/\.app\.tar\.gz$/.test(name)) {
       updateData.platforms.darwin.url = browser_download_url;
+      updateData.platforms["darwin-aarch64"].signature = browser_download_url;
     }
     // darwin signature
     if (/\.app\.tar\.gz\.sig$/.test(name)) {
       updateData.platforms.darwin.signature = await getSignature(
+        browser_download_url
+      );
+      updateData.platforms["darwin-aarch64"].signature = await getSignature(
         browser_download_url
       );
     }

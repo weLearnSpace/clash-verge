@@ -5,7 +5,7 @@
   },
   "build": {
     "distDir": "../dist",
-    "devPath": "http://localhost:3000/",
+    "devPath": "http://127.0.0.1:8989/",
     "beforeDevCommand": "yarn run web:dev",
     "beforeBuildCommand": "yarn run web:build"
   },
@@ -25,12 +25,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "resources": [
-        "resources"
-      ],
-      "externalBin": [
-        "sidecar/clash"
-      ],
+      "resources": [], // "resources"
+      "externalBin": [], // "sidecar/clash"
       "copyright": "© 2022 zzzgydi All Rights Reserved",
       "category": "DeveloperTool",
       "shortDescription": "A Clash GUI based on tauri.",

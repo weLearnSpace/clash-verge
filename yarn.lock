@@ -653,7 +653,7 @@
     "@svgr/hast-util-to-babel-ast" "^6.2.1"
     svg-parser "^2.0.2"
 
-"@tauri-apps/api@^1.0.0-rc.3":
+"@tauri-apps/api@^1.0.0-rc.":
   version "1.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.0.0-rc.3.tgz#e80ddbe832bf003537d94801d508a7f7e25ac48b"
   integrity sha512-/ZbyBjuUoU6mYm8RzibIUvVuJ31ZwYA2+fTRl7FF4LVFhzCVJ1YI1BS5ohGb2GsLNmLpfeo7kDHaIhV2uaOchQ==

@@ -7,6 +7,9 @@ import monaco from "vite-plugin-monaco-editor";
 export default defineConfig({
   root: "src",
   plugins: [svgr(), react(), monaco()],
+  server: {
+    port: 8989,
+  },
   build: {
     outDir: "../dist",
     emptyOutDir: true,
