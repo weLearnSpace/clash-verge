@@ -25,12 +25,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "resources": [
-        "resources"
-      ],
-      "externalBin": [
-        "sidecar/clash"
-      ],
+      "resources": ["resources"],
+      "externalBin": ["sidecar/clash"],
       "copyright": "© 2022 zzzgydi All Rights Reserved",
       "category": "DeveloperTool",
       "shortDescription": "A Clash GUI based on tauri.",
@@ -56,8 +52,8 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/zzzgydi/clash-verge/releases/download/updater/update.json",
-        "https://hub.fastgit.xyz/zzzgydi/clash-verge/releases/download/updater/update-proxy.json"
+        "https://github.com/weLearnSpace/clash-verge/releases/download/updater/update.json",
+        "https://hub.fastgit.xyz/weLearnSpace/clash-verge/releases/download/updater/update-proxy.json"
       ],
       "dialog": false,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDFDNTFCM0VEN0QzMDc0QzgKUldUSWREQjk3Yk5SSEpRRnpRWXRYNytNeExNL0s2RVhRc1M0Q3BGMGhQRmxUVklkVEhudWZuZkEK"
