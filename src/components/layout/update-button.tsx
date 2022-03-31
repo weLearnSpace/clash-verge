@@ -17,7 +17,7 @@ const UpdateButton = (props: Props) => {
     revalidateIfStale: false,
     focusThrottleInterval: 36e5, // 1 hour
   });
-
+  console.log(updateInfo);
   if (!updateInfo?.shouldUpdate) return null;
 
   return (

@@ -45,6 +45,10 @@ const UpdateDialog = (props: Props) => {
       await installUpdate();
       await relaunch();
     } catch (err: any) {
+      console.log(
+        "🚀 ~ file: update-dialog.tsx ~ line 48 ~ onUpdate ~ err",
+        err
+      );
       await restartSidecar();
       Notice.error(err?.message || err.toString());
     } finally {
